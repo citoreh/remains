@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Privacy Policy — What Remains of Today</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:680px;margin:48px auto;padding:0 20px;line-height:1.6;color:#1a1a1a}
+  h1{font-size:24px}
+  h2{font-size:16px;margin-top:32px}
+  code{background:#f2f2f2;padding:1px 5px;border-radius:4px;font-size:.9em}
+  .updated{color:#666;font-size:13px}
+</style>
+</head>
+<body>
+  <h1>Privacy Policy — What Remains of Today</h1>
+  <p class="updated">Last updated: 1 July 2026</p>
+
+  <p>"What Remains of Today" (the "Extension") is a Chrome extension that displays
+  a countdown of the time remaining in the current day, week, month, quarter,
+  and year.</p>
+
+  <h2>What data the Extension collects</h2>
+  <p>None. The Extension does not collect, transmit, sell, or share any personal
+  or sensitive user data. It has no <code>host_permissions</code> and makes no
+  network requests of any kind — it does not read your browsing history, page
+  content, tabs, or any other browser data.</p>
+
+  <h2>What is stored, and where</h2>
+  <p>The Extension stores only the settings you choose yourself — your preferred
+  end-of-day time, accent color, badge style, and time zone selection — using
+  Chrome's built-in <code>chrome.storage.sync</code> API. This data:</p>
+  <ul>
+    <li>Never leaves your device via any server operated by the developer,
+      because the developer operates no server.</li>
+    <li>Is synced only through Google's own Chrome Sync infrastructure, under
+      your Google Account, exactly like your bookmarks or browser settings —
+      the same way any Chrome extension using <code>storage.sync</code> works.</li>
+    <li>Can be cleared at any time by removing the extension or clearing its
+      site data via <code>chrome://extensions</code>.</li>
+  </ul>
+
+  <h2>Permissions used</h2>
+  <ul>
+    <li><code>storage</code> — to save your settings as described above.</li>
+    <li><code>alarms</code> — to refresh the toolbar badge (the small
+      percentage/hours indicator on the icon) once per minute.</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>The Extension does not integrate any analytics, advertising, or
+  third-party SDKs. No data is shared with any third party because no data
+  is collected in the first place.</p>
+
+  <h2>Limited Use disclosure</h2>
+  <p>The use of information received from Google APIs by this Extension
+  adheres to the Chrome Web Store User Data Policy, including the Limited
+  Use requirements.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this Extension ever begins collecting or transmitting data, this
+  policy will be updated first, with a new "Last updated" date above, before
+  that change ships.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to: <code>[YOUR SUPPORT EMAIL]</code></p>
+</body>
+</html>
